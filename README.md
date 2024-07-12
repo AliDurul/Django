@@ -10,6 +10,8 @@ pip install -r requirements.txt
 
 pip freeze > requirements.txt
 
+python manage.py makemigrations 
+
 python manage.py migrate
 
 pyhton manage.py startapp fscohort
